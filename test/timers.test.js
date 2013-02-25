@@ -1,1 +1,0 @@
-require("./timers")(require(require("../index").full.timers));

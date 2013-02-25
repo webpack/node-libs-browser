@@ -1,8 +1,8 @@
-describe("node.js simple test", function() {
+describe("node.js simple tests", function() {
 	function simple(name, cleanup) {
 		it("should pass the " + name + " test", function() {
-			require("../common").globalCheck = false;
-			require("./test-"+name);
+			require("./node/common").globalCheck = false;
+			require("./node/simple/test-"+name); // change this so browserify can process it too...
 			if(cleanup) cleanup();
 		});
 	}

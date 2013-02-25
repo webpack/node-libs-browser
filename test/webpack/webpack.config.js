@@ -11,7 +11,7 @@ module.exports = {
 		]
 	},
 	resolve: {
-		alias: {},//require("../../index").best,
+		alias: require("../../index"),
 	}
 };
 module.exports.resolve.alias.should = path.join(__dirname, "should.js");
