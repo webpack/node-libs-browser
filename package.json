@@ -1,0 +1,32 @@
+{
+	"name": "node-libs-browser",
+	"version": "0.1.0",
+	"author": "Tobias Koppers @sokra",
+	"description": "The node core libs for in browser usage.",
+	"dependencies": {
+		"console-browserify": "0.1.6",
+		"vm-browserify": "0.0.1",
+		"crypto-browserify": "0.2.1",
+		"http-browserify": "0.1.6",
+		"buffer-browserify": "0.0.4",
+		"zlib-browserify": "0.0.1"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"devDependencies": {
+		"mocha": "1.8.x",
+		"should": "1.1.x",
+		"chai": "1.5.x",
+		"mocha-loader": "0.5.x",
+		"json-loader": "0.5.x"
+	},
+	"homepage": "http://github.com/webpack/node-libs-browser",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --reporter spec"
+	}
+}
