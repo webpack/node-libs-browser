@@ -24,5 +24,15 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "mocha --reporter spec --ui qunit"
+	},
+	"testling": {
+		"browsers": [
+			"ie6..latest",
+			"firefox/3.6..latest",
+			"chrome/20..latest",
+			"safari/5.1..latest"
+		],
+		"harness": "mocha-qunit",
+		"files": "test/*.js"
 	}
 }
