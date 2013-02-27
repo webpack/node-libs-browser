@@ -1,4 +1,4 @@
-var assert = require('assert');
+var assert = require('../lib/assert');
 var timers = require('../lib/timers');
 
 suite('timers');
