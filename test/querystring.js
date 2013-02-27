@@ -111,7 +111,7 @@ for(var i = 0; i < qsWeirdObjects.length; i++) {
 
 for(var i = 0; i < qsNoMungeTestCases.length; i++) {
 	(function(tc) {
-		test('stringify nomunge ' + tc[1], function() {
+		test('stringify nomunge ' + tc[0], function() {
 			assert.deepEqual(tc[0], qs.stringify(tc[1], '&', '=', false));
 		});
 	}(qsNoMungeTestCases[i]));
