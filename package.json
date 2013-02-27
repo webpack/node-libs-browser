@@ -18,7 +18,8 @@
 		}
 	],
 	"devDependencies": {
-		"mocha": "1.8.x"
+		"mocha": "1.8.x",
+		"after": "0.7.x"
 	},
 	"homepage": "http://github.com/webpack/node-libs-browser",
 	"main": "index.js",
