@@ -18,15 +18,21 @@
 		}
 	],
 	"devDependencies": {
-		"mocha": "1.8.x",
-		"should": "1.1.x",
-		"chai": "1.5.x",
-		"mocha-loader": "0.5.x",
-		"json-loader": "0.5.x"
+		"mocha": "1.8.x"
 	},
 	"homepage": "http://github.com/webpack/node-libs-browser",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha --reporter spec"
+		"test": "mocha --reporter spec --ui qunit"
+	},
+	"testling": {
+		"browsers": [
+			"ie6..latest",
+			"firefox/3.6..latest",
+			"chrome/20..latest",
+			"safari/5.1..latest"
+		],
+		"harness": "mocha-qunit",
+		"files": "test/*.js"
 	}
 }
