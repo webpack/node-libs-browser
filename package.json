@@ -19,12 +19,13 @@
 	],
 	"devDependencies": {
 		"mocha": "1.8.x",
-		"after": "0.7.x"
+		"after": "0.7.x",
+		"istanbul": "0.1.31"
 	},
 	"homepage": "http://github.com/webpack/node-libs-browser",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha --reporter spec --ui qunit"
+		"test": "istanbul test ./node_modules/.bin/_mocha -- --reporter spec --ui qunit"
 	},
 	"testling": {
 		"browsers": [
