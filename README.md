@@ -16,6 +16,8 @@ They are in CommonJs exports style and may have dependencies to other files with
 
 ## testling
 
+[![browser support](http://ci.testling.com/webpack/node-libs-browser.png)](http://ci.testling.com/webpack/node-libs-browser)
+
 To run the tests locally just do `npm test`
 
 If you want to run the tests in a browser, use [zuul](https://github.com/shtylman/zuul)
@@ -24,4 +26,6 @@ If you want to run the tests in a browser, use [zuul](https://github.com/shtylma
 zuul --server 9000 --ui qunit ./test/*.js
 ```
 
-[![Dependency Status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
+## dependencies
+
+[![dependencies status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
