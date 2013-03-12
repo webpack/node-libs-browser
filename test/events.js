@@ -259,7 +259,7 @@ test('remove all listeners', function() {
 	assert.deepEqual([], e2.listeners('bar'));
 });
 
-test('remove listener', function() {
+test('remove listener', function(done) {
 	var count = 0;
 
 	function listener1() {
@@ -289,6 +289,24 @@ test('remove listener', function() {
 	e3.on('hello', listener2);
 	e3.removeListener('hello', listener1);
 	assert.deepEqual([listener2], e3.listeners('hello'));
+
+	done = after(2, done);
+	function remove1() {
+		assert(0);
+	}
+	function remove2() {
+		assert(0);
+	}
+	var e4 = new events.EventEmitter();
+	e4.on('removeListener', function(name, cb) {
+		if (cb !== remove1) return done();
+		this.removeListener('quux', remove2);
+	    this.emit('quux');
+		done();
+	});
+	e4.on('quux', remove1);
+	e4.on('quux', remove2);
+	e4.removeListener('quux', remove1);
 });
 
 test('subclass', function(done) {
