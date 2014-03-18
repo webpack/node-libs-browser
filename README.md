@@ -2,29 +2,20 @@
 
 The node core libs for in browser usage.
 
-They are in CommonJs exports style and may have dependencies to other files with a CommonJs `require`. Shared util functions are layed out in shared modules.
-
 ## Module exports
 
 ``` javascript
 {
-  assert: "/absolute/path/to/assert",
-  events: "/absolute/path/to/events",
-  /* ... */
+	assert: "/absolute/path/to/assert",
+	events: "/absolute/path/to/events",
+	/* ... */
+	fs: null // core module without browser replacement
 }
 ```
 
-## testling
+## Mocks
 
-[![browser support](http://ci.testling.com/webpack/node-libs-browser.png)](http://ci.testling.com/webpack/node-libs-browser)
-
-To run the tests locally just do `npm test`
-
-If you want to run the tests in a browser, use [zuul](https://github.com/shtylman/zuul)
-
-```
-zuul --server 9000 --ui qunit ./test/*.js
-```
+Some modules have mocks in the `mock` directory. This are replacements with minimal functionality.
 
 ## dependencies
 
