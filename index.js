@@ -30,6 +30,7 @@ exports._stream_writable			= require.resolve('stream-browserify/writable.js');
 exports.string_decoder				= require.resolve('string_decoder/');
 exports.sys							= require.resolve('util/util.js');
 exports.timers						= require.resolve('timers-browserify');
+exports.tls							= null;
 exports.tty							= require.resolve('tty-browserify');
 exports.url							= require.resolve('url/');
 exports.util						= require.resolve('util/util.js');
