@@ -21,7 +21,7 @@
 		"readable-stream": "^1.1.13",
 		"string_decoder": "~0.10.25",
 		"punycode": "^1.2.4",
-		"events": "^1.0.0",
+		"events": "^1.0.1",
 		"util": "~0.10.3",
 		"assert": "^1.1.1",
 		"buffer": "^2.3.0",
