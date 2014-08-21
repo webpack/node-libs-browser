@@ -20,6 +20,7 @@
 		"stream-browserify": "^1.0.0",
 		"readable-stream": "^1.1.13",
 		"string_decoder": "~0.10.25",
+		"setimmediate": "^1.0.2",
 		"punycode": "^1.2.4",
 		"events": "^1.0.0",
 		"util": "~0.10.3",
