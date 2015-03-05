@@ -1,6 +1,6 @@
 {
   "name": "node-libs-browser",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "author": "Tobias Koppers @sokra",
   "description": "The node core libs for in browser usage.",
   "dependencies": {
