@@ -35,5 +35,20 @@
     }
   ],
   "homepage": "http://github.com/webpack/node-libs-browser",
-  "main": "index.js"
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "mock/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpack/node-libs-browser.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webpack/node-libs-browser/issues"
+  }
 }
