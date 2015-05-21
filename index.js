@@ -21,6 +21,7 @@ exports.process						= require.resolve('process/browser.js');
 exports.querystring					= require.resolve('querystring-es3/');
 exports.readline					= null;
 exports.repl						= null;
+exports.setimmediate				= require.resolve('setimmediate');
 exports.stream						= require.resolve('stream-browserify');
 exports._stream_duplex				= require.resolve('readable-stream/duplex.js');
 exports._stream_passthrough			= require.resolve('readable-stream/passthrough.js');
