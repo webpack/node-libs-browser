@@ -32,12 +32,6 @@
     "util": "~0.10.3",
     "vm-browserify": "0.0.4"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "homepage": "http://github.com/webpack/node-libs-browser",
   "main": "index.js",
   "files": [
