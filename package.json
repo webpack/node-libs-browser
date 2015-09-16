@@ -1,11 +1,11 @@
 {
   "name": "node-libs-browser",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "author": "Tobias Koppers @sokra",
   "description": "The node core libs for in browser usage.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webpack/node-libs-browser.git"
+    "url": "git+https://github.com/webpack/node-libs-browser.git"
   },
   "dependencies": {
     "assert": "^1.1.1",
@@ -40,10 +40,6 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/webpack/node-libs-browser.git"
   },
   "license": "MIT",
   "bugs": {
