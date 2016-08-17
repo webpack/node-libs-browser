@@ -1,6 +1,6 @@
 {
   "name": "node-libs-browser",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": "Tobias Koppers @sokra",
   "description": "The node core libs for in browser usage.",
   "repository": {
@@ -10,7 +10,7 @@
   "dependencies": {
     "assert": "^1.1.1",
     "browserify-zlib": "~0.1.4",
-    "buffer": "^3.0.3",
+    "buffer": "^4.9.0",
     "console-browserify": "^1.1.0",
     "constants-browserify": "0.0.1",
     "crypto-browserify": "~3.2.6",
