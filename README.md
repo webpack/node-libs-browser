@@ -22,7 +22,7 @@ Some modules have mocks in the `mock` directory. These are replacements with min
 | domain | [bevry/domain-browser](https://github.com/bevry/domain-browser) | --- |
 | events | [Gozala/events](https://github.com/Gozala/events) | --- |
 | fs | --- | --- |
-| http | [substack/http-browserify](https://github.com/substack/http-browserify) | --- |
+| http | [jhiesey/stream-http](https://github.com/jhiesey/stream-http) | --- |
 | https | [substack/https-browserify](https://github.com/substack/https-browserify) | --- |
 | module | --- | --- |
 | net | --- | [net.js](https://github.com/webpack/node-libs-browser/blob/master/mock/net.js) |
