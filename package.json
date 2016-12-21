@@ -24,7 +24,7 @@
     "querystring-es3": "^0.2.0",
     "readable-stream": "^2.0.5",
     "stream-browserify": "^2.0.1",
-    "stream-http": "^2.5.0",
+    "stream-http": "<=2.4.0",
     "string_decoder": "^0.10.25",
     "timers-browserify": "^2.0.2",
     "tty-browserify": "0.0.0",
