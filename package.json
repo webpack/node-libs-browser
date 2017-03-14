@@ -44,5 +44,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webpack/node-libs-browser/issues"
+  },
+  "devDependencies": {
+    "standard-version": "^4.0.0"
   }
 }
