@@ -17,6 +17,7 @@
     "domain-browser": "^1.1.1",
     "events": "^1.0.0",
     "https-browserify": "0.0.1",
+    "memfs": "^2.0.5",
     "os-browserify": "^0.2.0",
     "path-browserify": "0.0.0",
     "process": "^0.11.0",

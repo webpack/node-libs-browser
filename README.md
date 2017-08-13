@@ -21,7 +21,7 @@ Some modules have mocks in the `mock` directory. These are replacements with min
 | dns | --- | [dns.js](https://github.com/webpack/node-libs-browser/blob/master/mock/dns.js) |
 | domain | [bevry/domain-browser](https://github.com/bevry/domain-browser) | --- |
 | events | [Gozala/events](https://github.com/Gozala/events) | --- |
-| fs | --- | --- |
+| fs | [streamich/memfs](https://github.com/streamich/memfs) | --- |
 | http | [jhiesey/stream-http](https://github.com/jhiesey/stream-http) | --- |
 | https | [substack/https-browserify](https://github.com/substack/https-browserify) | --- |
 | module | --- | --- |
