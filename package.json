@@ -21,7 +21,7 @@
     "path-browserify": "0.0.0",
     "process": "^0.11.0",
     "punycode": "^1.2.4",
-    "querystring-es3": "^0.2.0",
+    "querystring-es3": "^1.0.0",
     "readable-stream": "^2.0.5",
     "stream-browserify": "^2.0.1",
     "stream-http": "^2.3.1",
