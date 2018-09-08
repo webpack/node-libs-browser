@@ -19,6 +19,7 @@
     "https-browserify": "^1.0.0",
     "os-browserify": "^0.3.0",
     "path-browserify": "0.0.0",
+    "perfnow": "^0.2.0",
     "process": "^0.11.10",
     "punycode": "^1.2.4",
     "querystring-es3": "^0.2.0",

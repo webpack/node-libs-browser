@@ -16,6 +16,7 @@ exports.module						= null;
 exports.net							= null;
 exports.os							= require.resolve('os-browserify/browser.js');
 exports.path						= require.resolve('path-browserify');
+exports.performance     = require.resolve("perfnow");
 exports.punycode					= require.resolve('punycode/');
 exports.process						= require.resolve('process/browser.js');
 exports.querystring					= require.resolve('querystring-es3/');
