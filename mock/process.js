@@ -28,3 +28,4 @@ exports.umask = exports.dlopen =
 exports.uptime = exports.memoryUsage = 
 exports.uvCounters = function() {};
 exports.features = {};
+exports.toString = function () { return "[object process]" };
