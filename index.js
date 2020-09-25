@@ -12,6 +12,7 @@ exports.events						= require.resolve('events/');
 exports.fs							= null;
 exports.http						= require.resolve('stream-http');
 exports.https						= require.resolve('https-browserify');
+exports.http2						= null;
 exports.module						= null;
 exports.net							= null;
 exports.os							= require.resolve('os-browserify/browser.js');
