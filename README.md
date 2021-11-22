@@ -2,9 +2,13 @@
 
 The node core libs for in-browser usage.
 
-NOTE: This library is deprecated and won't accept Pull Requests that include Breaking Changes or new Features. Only bugfixes are accepted.
+**NOTE**: This library is deprecated and won’t accept pull requests that include breaking changes or new features. Only bugfixes are accepted.
 
-[![dependencies status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
+If you’re looking for up-to-date implementation, check [`node-stdlib-browser`](https://github.com/niksy/node-stdlib-browser).
+
+[![dependencies status](https://img.shields.io/librariesio/release/npm/node-libs-browser)](https://libraries.io/npm/node-libs-browser)
+
+---
 
 Exports a hash [object] of absolute paths to each lib, keyed by lib names. Modules without browser replacements are `null`.
 
